@@ -1,0 +1,40 @@
+---
+title: "Notes_R4PublicHealth_Logistic"
+author: "Haoyi Wei"
+date: "2023-01-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Reading
+
+Additional Reading
+None of the resources listed below is necessary for the course, but I'm often asked to recommend a textbook on introductory statistics. For those of you who would like one, here are some suggestions.
+
+Bland and Altman's Statistics Notes ran in the British Medical Journal in the 1990s and were written for doctors rather than statisticians. They remain an excellent resource on a wide range of statistical subjects. Some are beyond the scope of this specialisation, but a number are very relevant. You can view them [here.](https://www-users.york.ac.uk/~mb55/pubs/pbstnote.htm)
+
+For those of you who want a textbook that covers material for this specialisation (and beyond), then we suggest any of the following:
+ 
+ Kirkwood B and Sterne J (2003) Essential Medical Statistics (2nd ed).Blackwell Science Ltd.
+
+- Written in an engaging style and with clarity of expression, this is an excellent standard text book on statistical concepts and methods of analysis (around £40 new).
+ 
+ 
+Bland M (2015) An Introduction to Medical Statistics (4th ed). Oxford University Press. 
+
+- An alternative excellent standard text book. This includes multiple choice and other questions at the end of chapters, which may be useful for revision purposes (around £25). 
+ 
+ Altman DG (1990) Practical statistics for medical research. Chapman and Hall, 1990. 
+
+- This is older but still great.
+
+# Week 1
+
+Logistic regression is all about odds rather than the probability.
+
+Odds describe the expected number of successes per failure.
+
+p/1-p
